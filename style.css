@@ -1,0 +1,511 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #fff;
+}
+
+/* Main rounded container */
+.header-container {
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.head {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 100px;
+  border-radius: 12px;
+  margin-right: 15px;
+}
+
+.title {
+  display: flex;
+  flex-direction: ;
+  gap: 25px;
+}
+
+.title1 {
+  color: red;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.title12 {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+}
+
+.title2 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Search box */
+.search-box {
+  padding: 6px 14px;
+  border-radius: 12px;
+  border: none;
+  font-size: 15px;
+  background: white;
+}
+
+/* Navigation menu */
+.main-nav {
+  display: flex;
+  gap: 12px;
+}
+
+/* General links */
+.main-nav a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  background-color:  green;
+  color:#fff;
+  font-weight: bold;
+  transition: all 0.3s ease; 
+}
+
+/* Subscribe button */
+.main-nav a.subscribe {
+  background-color: red;
+  color: white;
+}
+
+/* Hover effect for all links */
+.main-nav a:hover {
+  background-color:  red;
+  color:gold; 
+  transform: scale(1.05); 
+  opacity: 1;
+}
+
+/* Hover  for the subscribe button */
+.main-nav a.subscribe:hover {
+  background-color: blue;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+
+/*  WELCOME SECTION  */
+.welcome {
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome h2 {
+    color: blue;
+}
+
+/*  GALLERY  */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gallery figure {
+    text-align: center;
+transition: transform 0.3s ease;
+}
+.gallery figure:hover {
+    transform: scale(1.05);
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+}
+
+.gallery figcaption a {
+    color:red;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/*  PROFILES  */
+.profiles {
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.profile img {
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* FOOTER  */
+.site-footer {
+    display: flex;              
+    justify-content: center;     
+    align-items: center;        
+    height: 60px;                
+    padding: 0 10px;             
+    background: red;
+    color: white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    border-top: 3px solid #ffcc00;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+
+/*  PAGE CONTENT  */
+.page-heading {
+    text-align: center;
+    color: blue;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+
+.section-title {
+    color: red;
+    margin-left: 20px;
+}
+
+.main-image {
+    float: right;
+    max-width: 950px;
+    height: auto;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*  LINKS LIST  */
+.links-list {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.links-list a {
+    color: blue;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.links-list a:hover {
+    text-decoration: underline;
+    color: green;
+    font-weight: bold;
+}
+
+/* TITLE  */
+.page-title {
+    text-align: center;
+    font-size: 28px;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+/*  IMAGE STYLES */
+.river-image {
+    float: right;
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 0 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    text-align: justify;
+}
+
+/*  HEADER BRANDING  */
+.site-header {
+    background: linear-gradient rgba(11, 99, 184, 0.06);
+    border-bottom: 1px solid rgba(11, 99, 184, 0.06);
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    color: blue;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.brand-image {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 3px solid rgba(11, 99, 184, 0.15);
+}
+
+.site-title {
+    font-size: 1.3rem;
+    color: blue;
+    margin: 0;
+}
+
+/* INTRO SECTION  */
+.intro p {
+    line-height: 1.6;
+    margin: 0 0 1rem;
+}
+
+.about h2 {
+    font-size: 1.2rem;
+    color: blue;
+    margin: 1rem 0 0.25rem;
+}
+
+.about h3 {
+    font-size: 1rem;
+    color: blue;
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 30px;
+}
+
+.left-image {
+    float: left;
+    width: 210px;
+    height: 200px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.intro p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: blue;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*  CULTURE SECTION  */
+.Biratnagar-culture {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.culture .sub-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+.culture-img {
+    width: auto;
+    height: 200px;
+    margin: 5px;
+    vertical-align: top;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.culture-img:nth-child(2) {
+    width: 200px;
+}
+
+.culture-img:nth-child(3) {
+    width: 250px;
+}
+
+.culture-img:nth-child(4) {
+    width: 210px;
+}
+
+/*  IMAGE GALLERY  */
+.image-gallery {
+    text-align: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.gallery-img {
+    height: 200px;
+    margin: 5px;
+    vertical-align: top;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Different widths for specific images */
+.img-210 {
+    width: 210px;
+}
+
+.img-200 {
+    width: 200px;
+}
+
+.img-250 {
+    width: 250px;
+}
+
+.culture-title {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    color: blue;
+    text-align: center;
+}
+
+.culture-title {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: blue;
+    text-align: center;
+}
+
+.image-gallery {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image-gallery img {
+    width: auto; 
+    height: 200px;
+    margin: 5px;
+    vertical-align: top;
+}
+.lumbini-culture {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9; 
+}
+
+.culture-title {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+.culture-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.culture-gallery img {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.culture-gallery img:hover {
+    transform: scale(1.05);
+    border-color: blue;
+}
+
+.culture {
+    text-align: center;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.sub-title {
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 210px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.culture {
+    text-align: center;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.sub-title {
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+
+
+/*  RESPONSIVE */
+@media (max-width: 640px) {
+    .brand-image {
+        width: 88px;
+        height: 88px;
+    }
+    .site-title {
+        font-size: 1rem;
+    }
+    .gallery img {
+        height: 150px;
+    }
+}
