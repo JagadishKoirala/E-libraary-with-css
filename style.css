@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: Georgia, serif;
-  background-color: #fff;
+font-family: 'Raleway', sans-serif;
+ background-color: #fff;
 }
 
 /* Main rounded container */
@@ -10,15 +10,19 @@ body {
   padding: 20px;
   border-radius: 15px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;  
 }
-
+.header-container > :first-child {
+  align-self: flex-start;
+}
+.header-container > :last-child {
+  align-self: flex-end;
+}
 
 .head {
   display: flex;
-  align-items: center;
+justify-content: right;
+align-items: right;
 }
 
 .logo img {
@@ -29,7 +33,7 @@ body {
 
 .title {
   display: flex;
-  flex-direction: ;
+ justify-content: right;
   gap: 25px;
 }
 
@@ -37,12 +41,14 @@ body {
   color: red;
   font-size: 18px;
   line-height: 1.5;
+  justify-content: right;
 }
 
 .title12 {
   font-size: 20px;
   font-weight: bold;
   color: blue;
+  justify-content: right;
 }
 
 .title2 {
